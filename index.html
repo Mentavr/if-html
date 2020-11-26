@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+    <meta charset="utf-8" >
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap"
+        rel="stylesheet">
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>TripHouse Site</title>
+</head>
+
+<body class="page-body">
+    <header class="main-header">
+        <div class="header-wrapper center">
+        <div class="enter-header-wrapper">
+            <div class="logo-company-wrapper">
+        <img class="logo-company" src="./img/logo_vector.svg" width="205" height="40" alt="logo company">
+        </div>
+        <div class="user-panel-wrapper">
+        <a href="#" class="text-content user-panel">Stays</a>
+        <a href="#" class="text-content user-panel">Attractions</a>
+        <a href="#" class="сhange-color-main user-panel"></a>
+        <a href="#" class="user-profile user-panel"></a>
+        </div>
+        </div>
+        <p class="plus-relax">Discover stays<br>
+            to live, work or just relax</p>
+        <form class="search-places" action="#" method="get">
+            <div class="form-name-wrapper">
+            <label for="destination" class="form-text">Your destination or hotel name</label>
+            <label for="date" class="form-text">Check-in &ndash; Check-out</label><br>
+            </div>
+            <div class="form-filling-wrapper">
+            <input class="form-name-place second-text" type="text" name="destination-name" id="destination" placeholder="New York">
+            <input class="form-time-stay second-text" type="text" name="date-stay" id="date" placeholder="Tue 15 Sept &ndash; Sat 19 Sept">
+            <label for="quantity" class="visibility-hidden">Quantity client and rooms</label>
+            <input class="form-quantity second-text" type="text" name="quantity-client" id="quantity"
+                placeholder="2 Adults &ndash; 0 Children &ndash; 1 Room">
+            <input class="form-button text-content" type="submit" value="Search">
+            </div>
+        </form>
+        <div class="badge-store-wrapper">
+        <img class="badge-store" src="./img/google-play-badge.svg" width="135" height="40" alt="google-play score">
+        <img class="badge-store" src="./img/app-store-badge.svg" width="120" height="40" alt="app-store score">
+        </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="services-company">
+            <div class="services-company-wrapper center">
+                <h1 class="section-title chek-title">What do we offer</h1>
+                <ul class="services-company-list">
+                    <li class="services-company-item">
+                        <div class="icon-wrapper">
+                        <div class="support-icon-company icon-company">
+                        </div>   
+                        </div>
+                        <p class="text-content site-navigation">Support 24/7</p>
+                    </li>
+                    <li class="services-company-item">
+                        <div class="icon-wrapper">
+                            <div class="forum-icon-company icon-company">
+                            </div>   
+                        </div>
+                            <p class="text-content site-navigation">Communicate directly</p>
+                    </li>
+                    <li class="services-company-item ">
+                        <div class="icon-wrapper">
+                            <div class="device-icon-company icon-company">
+                            </div>   
+                        </div>
+                            <p class="text-content site-navigation">Book online</p>
+                    </li>
+                    <li class="services-company-item">
+                        <div class="icon-wrapper">
+                            <div class="reviews-icon-company icon-company">
+                            </div>   
+                        </div>
+                            <p class="text-content site-navigation">Real guest reviews</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="top-homes">
+            <div class="top-homes-wrapper center">
+                <h1 class="section-title chek-title">Homes guests loves</h1>
+                <ul class="top-homes-list">
+                    <li class="top-homes-item text-content">
+                        <div class="image-wrapper hotel-leopold">
+
+                        </div>
+                        <p class="name-hotel">Hotel Leopold</p>
+                        <p class="location-hotel">Saint Petersburg, Russia</p>
+                    </li>
+                    <li class="top-homes-item text-content">
+                        <div class="image-wrapper hotel-sunshine">
+
+                        </div>
+                        <p class="name-hotel">Apartment Sunshine</p>
+                        <p class="location-hotel">Santa Cruz de Tenerife, Spain</p>
+                    </li>
+                    <li class="top-homes-item text-content">
+                        <div class="image-wrapper hotel-kunerad">
+
+                        </div>
+                        <p class="name-hotel">Villa Kunerad</p>
+                        <p class="location-hotel">Vysokie Tatry, Slowakia</p>
+                    </li>
+                    <li class="top-homes-item text-content">
+                        <div class="image-wrapper hotel-friendship">
+
+                        </div>
+                        <p class="name-hotel">Hostel Friendship</p>
+                        <p class="location-hotel">Berlin, Germany</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="proposed-places">
+            <div class="proposed-places-wrapper center">
+                <h1 class="section-title chek-title">The best destinations</h1>
+                <ul class="location-places-list">
+                    <li class="location-places-item text-content active-location">Regions</li>
+                    <li class="location-places-item text-content">Cities</li>
+                    <li class="location-places-item text-content">Places of interest</li>
+                </ul>
+                <div class="regions-wrapper visibility-hidden proposed-places-current">
+                    <ul class="regions-list">
+                        <li class="regions-item">
+                            <div class="image-wrapper image-regions-castom image-maldives">
+                                <div class="image-regions">
+                                <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                </div>
+                            </div>
+                            <p class="text-content name-places">Maldives</p>
+                        </li>
+                        <li class="regions-item">
+                            <div class="image-wrapper image-regions-castom image-spain ">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Spain</p>
+                        </li>
+                        <li class="regions-item">
+                            <div class="image-wrapper  image-regions-castom image-norway">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Norway</p>
+                        </li>
+                        <li class="regions-item">
+                            <div class="image-wrapper image-regions-castom image-island">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Island</p>
+                        </li>
+                        <div class="visibility-hidden oll-regions-image-wrapper"> <!--oll-regions-image-active-->
+                        <li class="regions-item">
+                            <div class="image-wrapper image-regions-castom image-japan">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Japan</p>
+                        </li>
+                        <li class="regions-item">
+                            <div class="image-wrapper image-regions-castom image-france">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">France</p>
+                        </li>
+                        <li class="regions-item">
+                            <div class="image-wrapper image-regions-castom image-scottland">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Scottland</p>
+                        </li>
+                        <li class="regions-item">
+                            <div class="image-wrapper image-regions-castom image-russia">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Russia</p>
+                        </li>
+                        </div>
+                        <div class="open-oll-image-wrapper">
+                            <button class="open-oll-image visibility-hidden " type="button"></button>
+                            <button class="close-oll-image visibility-hidden open-oll-image-current" type="button"></button>
+                            </div>
+                    </ul>
+                </div>
+                <div class="cities-wrapper visibility-hidden">
+                    <ul class="cities-list ">
+                        <li class="cities-item">
+                            <div class="image-wrapper image-berlin">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Berlin, Germany</p>
+                        </li>
+                        <li class="cities-item">
+                            <div class="image-wrapper image-paris">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Paris, France</p>
+                        </li>
+                        <li class="cities-item">
+                            <div class="image-wrapper image-budapest">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Budapest, Hungary</p>
+                        </li>
+                        <li class="cities-item">
+                            <div class="image-wrapper image-london">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">London, United Kingdom</p>
+                        </li>
+                        <li class="cities-item">
+                            <div class="image-wrapper image-barcelona">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Barcelona, Spain</p>
+                        </li>
+                        <li class="cities-item">
+                            <div class="image-wrapper image-tbilisi">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Tbilisi, Georgia</p>
+                        </li>
+                        <li class="cities-item">
+                            <div class="image-wrapper image-moscow">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Moscow, Russia</p>
+                        </li>
+                        <li class="cities-item">
+                            <div class="image-wrapper image-amsterdam">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Amsterdam, Netherlands</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="interest-wrapper visibility-hidden">
+                    <ul class="interest-list">
+                        <li class="interest-item">
+                            <div class="image-wrapper image-edinburgh-castle">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Edinburgh Castle, Edinburgh, United Kingdom</p>
+                        </li>
+                        <li class="interest-item">
+                            <div class="image-wrapper image-neuschwanstein">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Neuschwanstein, Fussen, Germany</p>
+                        </li>
+                        <li class="interest-item">
+                            <div class="image-wrapper image-big-ben">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Big Ben, London, United Kingdom</p>
+                        </li>
+                        <li class="interest-item">
+                            <div class="image-wrapper image-colosseum">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Colosseum, Roma, Italy</p>
+                        </li>
+                        <li class="interest-item">
+                            <div class="image-wrapper image-matterhorn">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Matterhorn, Zermatt, Switzerland</p>
+                        </li>
+                        <li class="interest-item">
+                            <div class="image-wrapper image-morskie-oko">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Morskie Oko, Poland</p>
+                        </li>
+                        <li class="interest-item">
+                            <div class="image-wrapper image-krka">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Krka, Croatia</p>
+                        </li>
+                        <li class="interest-item">
+                            <div class="image-wrapper image-cabo-da-roca">
+                                <div class="image-regions">
+                                    <button class="book-now second-text visibility-hidden" type="button">Book now</button>
+                                    </div>
+                            </div>
+                            <p class="text-content name-places">Cabo da roca, Sintra, Portugal</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="login-discount-wrapper ">
+                    <div class="login-discount center">
+                        <div class="user-discount-icon"> 
+                        </div>
+                        <p class="text-content discount-service">Sign up and get 20% off your first booking</p>
+                        <button class="register-site" type="button">Sign up</button>
+                        <button class="close-discount" type="button"></button>
+                     </div>   
+                </div>
+            </div>
+        </section>
+        <section class="reviews-guests">
+            <div class="reviews-guests-wrapper center">
+            <h1 class="section-title">Guests reviews</h1>
+            <div class="owl-carousel-wrapper">
+               <ul class="owl-carousel-list">
+                <li class="owl-carousel-item">
+                   <div class="picture-place-wrapper">
+                           <div class="image-bali image-place">
+                            <div class="price-place-wrapper">
+                                <p class="price-place second-text">From 250 USD</p>
+                           </div>
+                           </div>
+                    </div>
+                     <div class="feedback-visitors-wrapper">
+                        <div class="rating-place">
+                        </div>
+                        <div class="feedback-visitors-wrapper">
+                             <p class="feedback-visitors second-text">Great location,
+                                  really pleasant and clean rooms,
+                                  but the thing that makes this 
+                                  such a good place to stay are the staff. 
+                                  All of the people are incredibly helpful 
+                                  and generous with their time and advice. </p>
+                        </div>    
+                     </div>
+                </li>
+                <li class="owl-carousel-item">
+                    <div class="picture-place-wrapper">
+                        <div class="image-rotterdam image-place">
+                         <div class="price-place-wrapper">
+                             <p class="price-place second-text">From 40 USD</p>
+                        </div>
+                        </div>
+                 </div>
+                  <div class="feedback-visitors-wrapper">
+                     <div class="rating-place">
+                     </div>
+                     <div class="feedback-visitors-wrapper">
+                          <p class="feedback-visitors second-text">I've been in this hostel 
+                              for a month and here is the best hostel of all
+                            Excellent management of excellent and ethical staff
+                             and bedrooms Bathrooms are always clean and excellent
+                            Most importantly, those who work here are kind and good-natured. </p>
+                     </div>    
+                  </div>
+                </li>
+                <li class="owl-carousel-item">
+                    <div class="picture-place-wrapper">
+                        <div class="image-ourika image-place">
+                         <div class="price-place-wrapper">
+                             <p class="price-place second-text">From 100 USD</p>
+                        </div>
+                        </div>
+                 </div>
+                  <div class="feedback-visitors-wrapper">
+                     <div class="rating-place">
+                     </div>
+                     <div class="feedback-visitors-wrapper">
+                          <p class="feedback-visitors second-text">Efficient, friendly, professional, 
+                              and appropriately attentive. Great hotel in a great location.
+                               Easy access to all the surrounding historical sites. Staff
+                                is fantastic. Will definitely stay at this location during 
+                                my next stay in Marocco. </p>
+                     </div>    
+                  </div>
+                </li>
+               </ul>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="main-footer-wrapper center">
+        <nav class="footer-navigation">
+            <div class="company-description-wrapper">
+                <h2>About</h2>
+                <ul class="company-list-description footer-list">
+                    <li class="company-item-description footer-item"><a href="#" class="company-description-link">How Triphouse
+                            works</a></li>
+                    <li class="company-item-description footer-item"><a href="#" class="company-description-link">Careers</a></li>
+                    <li class="company-item-description footer-item"><a href="#" class="company-description-link">Privacy</a></li>
+                    <li class="company-item-description footer-item"><a href="#" class="company-description-link">Terms</a></li>
+                </ul>
+            </div>
+            <div class="company-property-wrapper">
+                <h2>Property types</h2>
+                <ul class="company-list-property footer-list">
+                    <li class="company-item-property footer-item"><a href="#" class="company-property-link">Guest houses</a></li>
+                    <li class="company-item-property footer-item"><a href="#" class="company-property-link">Hotels</a></li>
+                    <li class="company-item-property footer-item"><a href="#" class="company-property-link">Apartments</a></li>
+                    <li class="company-item-property footer-item"><a href="#" class="company-property-link">Villas</a></li>
+                    <li class="company-item-property footer-item"><a href="#" class="company-property-link">Holiday homes</a></li>
+                    <li class="company-item-property footer-item"><a href="#" class="company-property-link">Hostels</a></li>
+                </ul>
+            </div>
+            <div class="company-support-wrapper">
+                <h2>Support</h2>
+                <ul class="company-list-support footer-list">
+                    <li class="company-item-support footer-item"><a href="#" class="company-support-link">Contact Customer
+                            Service</a></li>
+                    <li class="company-item-support footer-item"><a href="#" class="company-support-link">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="copyright-wrapper">
+            <p></p>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
