@@ -7,18 +7,22 @@
 .center {
     margin: 0 auto;
     max-width: var(--basic-width);
+    width: 100%;
 }
 .page {
     height: 100%;
     max-width: 1440px;
+    margin:0 auto;
+    width: 100%;
 }
-.page__body{
+.page-body{
     font-family:"Roboto", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     margin: 0;
+    width:100%;
 }
-.content_text{
+.content-text{
     font-size:24px;
     font-style: normal;
     font-weight:normal;
@@ -26,7 +30,7 @@
     color: var(--basic-white);
     text-decoration: none;
 }
-.company__title_text{
+.services-company-title__text{
     font-style: normal;
     font-size: 40px;
     font-weight: 500;
@@ -34,14 +38,11 @@
     color: var(--text-color);
     text-align:center;
     }
-.company__title-chek::before{
-    content:"";
+.services-company-title-chek{
     width: 100px;
     height: 4px;
     background-color: var(--special-yellow);
-    position: absolute;
-    bottom: 80px;
-    left:560px;
+    margin: 0 auto;
     }
 /*main homework*/
 
@@ -50,8 +51,9 @@
 }
 .services{
     margin-bottom: 120px;
+    width: 100%;
 }
-.services__company__offer_text_p{
+.sservices-company-title__text--p{
     padding: 0;
     margin:0;
     padding-top: 120px;
@@ -59,7 +61,7 @@
     text-align: center;
 
 }
-.services__company__title__wrapper{
+.services-company-title-wrapper{
     width: 100%;
     height: max-content;
     position: relative;
@@ -68,14 +70,14 @@
     align-items: center;
    
 }
-.services__company__list{
+.services-company__list{
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
     position: relative;
 }
-.services__company__item{
+.services-company__item{
     min-height: 178px;
     min-width: 296px;
     list-style: none;
@@ -84,12 +86,12 @@
     justify-content: space-between;
     align-items: center;
 }
-.services__icon__wrapper{
+.services-icon-wrapper{
     width:120px;
     height: 120px;
     position: relative;
 }
-.services__icon{
+.services__icon--option{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -107,7 +109,7 @@
 .services__icon4{
     background:url("../img/reviews-icon.svg") no-repeat;
 }
-.site__navigation{
+.site-navigation{
     color: var(--text-color);
     padding: 0;
     margin: 0;
