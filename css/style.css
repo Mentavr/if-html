@@ -3,6 +3,7 @@
     --special-yellow:#F5BD41;
     --text-color:#383838;
     --basic-white:#FFFFFF;
+    --basic-blue:#10367C;
 }
 .center {
     margin: 0 auto;
@@ -13,13 +14,13 @@
     height: 100%;
     max-width: 1440px;
     margin:0 auto;
-    width: 100%;
 }
 .page-body{
     font-family:"Roboto", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     margin: 0;
+    max-width: 1440px;
     width:100%;
 }
 .content-text{
@@ -43,6 +44,7 @@
     height: 4px;
     background-color: var(--special-yellow);
     margin: 0 auto;
+    margin-bottom: 80px;
     }
 /*main homework*/
 
@@ -113,4 +115,63 @@
     color: var(--text-color);
     padding: 0;
     margin: 0;
+}
+/*footer*/
+.main-footer{
+    background: var(--basic-blue);
+    padding-top: 102px;
+    min-height: 630px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.footer-navigation{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap:15px;
+}
+.footer-list{
+margin:0;
+padding: 0;
+min-height: 251px;
+margin-bottom: 24px;
+}
+
+.company-list-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.company-list-property{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.company-list-support{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footer-item{
+    list-style: none;
+    margin-bottom: 24px;
+}
+.company-footer-text{
+    text-decoration: none;
+    font-style: normal;
+    font-size:20px;
+    font-weight: normal;
+    line-height: 24px;
+    color: var(--basic-white);
+    margin-bottom: 25px;
+}
+.footer-title{
+    font-weight:500;
+}
+.copyright-wrapper{
+}
+.company-copyright-footer{
+    font-weight:normal; 
+font-style : normal;
+font-size :14px;
+line-height:  16px;
 }
