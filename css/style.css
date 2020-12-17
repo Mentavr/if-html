@@ -4,6 +4,11 @@
     --text-color:#383838;
     --basic-white:#FFFFFF;
     --basic-blue:#10367C;
+    --special-yellow:#F5BD41;
+    --secondary-blue:#3077C6;
+}
+.visibility-hidden{
+    display:none;
 }
 .center {
     margin: 0 auto;
@@ -31,6 +36,12 @@
     color: var(--basic-white);
     text-decoration: none;
 }
+.second-text{
+    font-weight:normal;
+    font-size:18px;
+    color: var(--basic-white);
+    line-height: 21px;
+}
 .services-company-title__text{
     font-style: normal;
     font-size: 40px;
@@ -46,7 +57,158 @@
     margin: 0 auto;
     margin-bottom: 80px;
     }
-/*main homework*/
+    /*header*/
+
+.main-header{
+    background:url("../img/background-header.jpg") no-repeat;
+    min-height:100vh;
+    background-size: cover;
+    object-fit: contain;
+}
+.header-wrapper--indents{
+    margin-bottom: 120px;
+    padding-bottom: 120px;
+}
+.enter-header-wrapper{
+    display:flex;
+    justify-content: space-between;
+    padding-top:50px;
+    margin-bottom:200px;
+}
+.logo-company-wrapper{
+
+}
+.user-panel-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 35px;
+    min-width: 320px;
+}
+.user-panel{
+   margin-right: 24px;
+}
+.user-panel:last-child{
+    margin-right: 0;
+ }
+
+.сhange-color-main{
+    background: url("../img/night-icon.svg") no-repeat;
+    min-width: 30px;
+    min-height: 30px;
+    display: block;
+    margin-left: 26px;
+}
+.user-profile{
+    background: url("../img/account-icon.svg") no-repeat;
+    min-width: 40px;
+    min-height: 40px;
+    display: block;
+}
+.form-text{
+    font-size:18px;
+    font-style: normal;
+    font-weight:normal;
+    line-height:21px;
+    color: var(--basic-white);
+    margin-right:195px;
+    padding-left:25px;
+}
+.form-name-wrapper{
+    width:var(--basic-width);
+    margin-bottom: 23px;
+}
+.form-filling-wrapper{
+    width:var(--basic-width);
+    height: 64px;
+    background: var(--basic-white);
+    border-radius: 8px;
+    box-sizing: border-box;
+    position: relative;
+}
+.form-name__input{
+width: 437px;
+height: 62px;
+padding: 0;
+margin: 0;
+border-radius: 8px;
+border:transparent;
+outline: none;
+color: var(--text-color);
+padding-left: 24px ;
+}
+.form-name__input::placeholder{
+    color: var(--text-color);
+}
+.form-name__input:focus::placeholder{
+color: var(--basic-white);
+}
+.plus-relax{
+font-size: 50px;
+line-height: 59px;
+color:var(--basic-white);
+margin-bottom: 100px;
+}
+.search-places{
+    margin-bottom: 120px;
+}
+.form-time__input{
+    width: 257px;
+    height: 65px;
+    border: 3px solid var(--special-yellow);
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+    outline:none;
+    padding-left: 24px ;
+}
+.form-time__input::placeholder{
+    color: var(--text-color);
+}
+.form-time__input:focus::placeholder{
+    color: var(--basic-white);
+}
+.form-quantity__input{
+    width:300px;
+    height: 59px;
+    border:transparent;
+    color: var(--text-color);
+    outline:none;
+    padding-left: 35px ;
+    box-sizing: border-box;
+}
+.form-quantity__input::placeholder{
+    color: var(--text-color);
+}
+.form-quantity__input:focus::placeholder{
+    color: var(--basic-white);
+}
+.form-button__input{
+    width:193px;
+    height:64px;
+    border-radius: 8px;
+    background: var(--secondary-blue);
+    box-sizing: border-box;
+    border:transparent;
+    outline:none;
+    position: absolute;
+    right:0;
+}
+.badge-store-wrapper{
+    width:var(--basic-width);
+    display: flex;
+    justify-content: center;
+    height: max-content;
+}
+.badge-store__img{
+    margin-right: 17px;
+}
+.badge-store__img:last-child{
+    margin-right: 0;
+}
+/*main */
 
 .main{
     width: 100%;
@@ -55,12 +217,11 @@
     margin-bottom: 120px;
     width: 100%;
 }
-.sservices-company-title__text--p{
+.services-company-title__text--p{
     padding: 0;
     margin:0;
-    padding-top: 120px;
-    margin-bottom: 105px;
     text-align: center;
+    margin-bottom: 20px;
 
 }
 .services-company-title-wrapper{
@@ -100,17 +261,18 @@
     left:10px;
 }
 .services__icon1{
-    background:url("../img/support-icon.svg") no-repeat;
+    
 }
 .services__icon2{
-    background:url("../img/forum-icon.svg") no-repeat;
+   
 }
 .services__icon3{
-    background:url("../img/device-icon.svg") no-repeat;
+
 }
 .services__icon4{
-    background:url("../img/reviews-icon.svg") no-repeat;
+
 }
+
 .site-navigation{
     color: var(--text-color);
     padding: 0;

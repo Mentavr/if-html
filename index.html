@@ -10,83 +10,137 @@
 </head>
 
 <body class="page-body">
+    <header class="main-header">
+        <div class="main-header-wrapper header-wrapper--indents center">
+            <div class="enter-header-wrapper">
+                <div class="logo-company-wrapper">
+                    <img class="logo-company__img" src="./img/logo_vector.svg" width="205" height="40" alt="logo company">
+                </div>
+                <div class="user-panel-wrapper">
+                    <a href="#" class="content-text user-panel">Stays</a>
+                    <a href="#" class="content-text user-panel">Attractions</a>
+                    <a href="#" class="сhange-color-main user-panel"></a>
+                    <a href="#" class="user-profile user-panel"></a>
+                </div>
+            </div>
+            <p class="plus-relax">Discover stays<br>
+                to live, work or just relax</p>
+            <form class="search-places" action="#" method="get">
+                <div class="form-name-wrapper">
+                    <label for="destination" class="form-text">Your destination or hotel name</label>
+                    <label for="date" class="form-text">Check-in &ndash; Check-out</label><br>
+                </div>
+                <div class="form-filling-wrapper">
+                    <input class="form-name__input second-text" type="text" name="destination-name" id="destination"
+                        placeholder="New York">
+                    <input class="form-time__input second-text" type="text" name="date-stay" id="date"
+                        placeholder="Tue 15 Sept &ndash; Sat 19 Sept">
+                    <label for="quantity" class="visibility-hidden">Quantity client and rooms</label>
+                    <input class="form-quantity__input second-text" type="text" name="quantity-client" id="quantity"
+                        placeholder="2 Adults &ndash; 0 Children &ndash; 1 Room">
+                    <input class="form-button__input content-text" type="submit" value="Search">
+                </div>
+            </form>
+            <div class="badge-store-wrapper">
+                <img class="badge-store__img" src="./img/google-play-badge.svg" width="135" height="40"
+                    alt="google-play score">
+                <img class="badge-store__img" src="./img/app-store-badge.svg" width="120" height="40" alt="app-store score">
+            </div>
+        </div>
+    </header>
     <main class="main">
         <section class="services center">
-                <div class="services-company-title-wrapper ">
-                    <h1 class="services-company-title__text services-company-title__text--p">What do we offer</h1>   
-                </div>
-                <div class="services-company-title-chek">
-                </div>  
-                <ul class="services-company__list">
-                    <li class="services-company__item">
-                        <div class="services-icon-wrapper">
-                            <div class="services__icon1 services__icon--option">
-                            </div>
+            <div class="services-company-title-wrapper ">
+                <h1 class="services-company-title__text services-company-title__text--p">What do we offer</h1>
+            </div>
+            <div class="services-company-title-chek">
+            </div>
+            <ul class="services-company__list">
+                <li class="services-company__item">
+                    <div class="services-icon-wrapper">
+                        <div class="services__icon--option">
+                            <img src="./img/support-icon.svg" class="services__icon1" width="75" height="92" alt="Support icon">
                         </div>
-                        <p class="content-text site-navigation">Support 24/7</p>
-                    </li>
-                    <li class="services-company__item">
-                        <div class="services-icon-wrapper">
-                            <div class="services__icon2 services__icon--option">
-                            </div>
+                    </div>
+                    <p class="content-text site-navigation">Support 24/7</p>
+                </li>
+                <li class="services-company__item">
+                    <div class="services-icon-wrapper">
+                        <div class="services__icon--option">
+                            <img src="./img/forum-icon.svg" class="services__icon2" width="84" height="84" alt="Communicate directly icon">
                         </div>
-                        <p class="content-text site-navigation">Communicate directly</p>
-                    </li>
-                    <li class="services-company__item">
-                        <div class="services-icon-wrapper">
-                            <div class="services__icon3 services__icon--option">
-                            </div>
+                    </div>
+                    <p class="content-text site-navigation">Communicate directly</p>
+                </li>
+                <li class="services-company__item">
+                    <div class="services-icon-wrapper">
+                        <div class="services__icon--option">
+                            <img src="./img/device-icon.svg" class="services__icon3" width="100" height="67" alt="Book online icon">
                         </div>
-                        <p class="content-text site-navigation">Book online</p>
-                    </li>
-                    <li class="services-company__item">
-                        <div class="services-icon-wrapper">
-                            <div class="services__icon4 services__icon--option">
-                            </div>
+                    </div>
+                    <p class="content-text site-navigation">Book online</p>
+                </li>
+                <li class="services-company__item">
+                    <div class="services-icon-wrapper">
+                        <div class="services__icon--option">
+                            <img src="./img/reviews-icon.svg" class="services__icon4" width="92" height="84" alt="Real guest reviews icon">
                         </div>
-                        <p class="content-text site-navigation">Real guest reviews</p>
-                    </li>
-                </ul>
+                    </div>
+                    <p class="content-text site-navigation">Real guest reviews</p>
+                </li>
+            </ul>
         </section>
     </main>
     <footer class="main-footer">
         <div class="main-footer-wrapper center">
-        <nav class="footer-navigation center">
-            <div class="company-description-wrapper">
-                <h2 class="footer-title company-footer-text">About</h2>
-                <ul class="company-list-description footer-list">
-                    <li class="company-item-description footer-item"><a href="#" class="company-description-link company-footer-text">How Triphouse
-                            works</a></li>
-                    <li class="company-item-description footer-item"><a href="#" class="company-description-link company-footer-text">Careers</a></li>
-                    <li class="company-item-description footer-item"><a href="#" class="company-description-link company-footer-text">Privacy</a></li>
-                    <li class="company-item-description footer-item"><a href="#" class="company-description-link company-footer-text">Terms</a></li>
-                </ul>
+            <nav class="footer-navigation center">
+                <div class="company-description-wrapper">
+                    <h2 class="footer-title company-footer-text">About</h2>
+                    <ul class="company-list-description footer-list">
+                        <li class="company-item-description footer-item"><a href="#"
+                                class="company-description-link company-footer-text">How Triphouse
+                                works</a></li>
+                        <li class="company-item-description footer-item"><a href="#"
+                                class="company-description-link company-footer-text">Careers</a></li>
+                        <li class="company-item-description footer-item"><a href="#"
+                                class="company-description-link company-footer-text">Privacy</a></li>
+                        <li class="company-item-description footer-item"><a href="#"
+                                class="company-description-link company-footer-text">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="company-property-wrapper">
+                    <h2 class="footer-title company-footer-text">Property types</h2>
+                    <ul class="company-list-property footer-list">
+                        <li class="company-item-property footer-item"><a href="#"
+                                class="company-property-link company-footer-text">Guest houses</a></li>
+                        <li class="company-item-property footer-item"><a href="#"
+                                class="company-property-link company-footer-text">Hotels</a></li>
+                        <li class="company-item-property footer-item"><a href="#"
+                                class="company-property-link company-footer-text">Apartments</a></li>
+                        <li class="company-item-property footer-item"><a href="#"
+                                class="company-property-link company-footer-text">Villas</a></li>
+                        <li class="company-item-property footer-item"><a href="#"
+                                class="company-property-link company-footer-text">Holiday homes</a></li>
+                        <li class="company-item-property footer-item"><a href="#"
+                                class="company-property-link company-footer-text">Hostels</a></li>
+                    </ul>
+                </div>
+                <div class="company-support-wrapper">
+                    <h2 class="footer-title company-footer-text">Support</h2>
+                    <ul class="company-list-support footer-list">
+                        <li class="company-item-support footer-item"><a href="#"
+                                class="company-support-link company-footer-text">Contact Customer
+                                Service</a></li>
+                        <li class="company-item-support footer-item"><a href="#"
+                                class="company-support-link company-footer-text">FAQ</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="copyright-wrapper">
+                <p class="company-footer-text company-copyright-footer">
+                    &copy; 2020 Triphouse, Inc. All rights reserved
+                </p>
             </div>
-            <div class="company-property-wrapper">
-                <h2 class="footer-title company-footer-text">Property types</h2>
-                <ul class="company-list-property footer-list">
-                    <li class="company-item-property footer-item"><a href="#" class="company-property-link company-footer-text">Guest houses</a></li>
-                    <li class="company-item-property footer-item"><a href="#" class="company-property-link company-footer-text">Hotels</a></li>
-                    <li class="company-item-property footer-item"><a href="#" class="company-property-link company-footer-text">Apartments</a></li>
-                    <li class="company-item-property footer-item"><a href="#" class="company-property-link company-footer-text">Villas</a></li>
-                    <li class="company-item-property footer-item"><a href="#" class="company-property-link company-footer-text">Holiday homes</a></li>
-                    <li class="company-item-property footer-item"><a href="#" class="company-property-link company-footer-text">Hostels</a></li>
-                </ul>
-            </div>
-            <div class="company-support-wrapper">
-                <h2 class="footer-title company-footer-text">Support</h2>
-                <ul class="company-list-support footer-list">
-                    <li class="company-item-support footer-item"><a href="#" class="company-support-link company-footer-text">Contact Customer
-                            Service</a></li>
-                    <li class="company-item-support footer-item"><a href="#" class="company-support-link company-footer-text">FAQ</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="copyright-wrapper">
-            <p class="company-footer-text company-copyright-footer">
-                &copy; 2020 Triphouse, Inc. All rights reserved
-            </p>
-        </div>
         </div>
     </footer>
 </body>
