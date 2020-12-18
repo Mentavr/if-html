@@ -14,18 +14,19 @@
         <div class="main-header-wrapper header-wrapper--indents center">
             <div class="enter-header-wrapper">
                 <div class="logo-company-wrapper">
-                    <img class="logo-company__img" src="./img/logo_vector.svg" width="205" height="40" alt="logo company">
+                    <img class="logo-company__img" src="./img/header-logo.png" width="205" height="40" alt="logo company">
+                    <img class="logo-company__mobile-img" src="./img/header-logo-mobile.png" width="121" height="24"alt="logo company">
                 </div>
                 <div class="user-panel-wrapper">
-                    <a href="#" class="content-text user-panel">Stays</a>
-                    <a href="#" class="content-text user-panel">Attractions</a>
+                    <a href="#" class="content-text user-panel user-panel-visible">Stays</a>
+                    <a href="#" class="content-text user-panel user-panel-visible">Attractions</a>
                     <a href="#" class="сhange-color-main user-panel"></a>
                     <a href="#" class="user-profile user-panel"></a>
                 </div>
             </div>
             <p class="plus-relax">Discover stays<br>
                 to live, work or just relax</p>
-            <form class="search-places" action="#" method="get">
+            <form class="form-computer" action="#" method="get">
                 <div class="form-name-wrapper">
                     <label for="destination" class="form-text">Your destination or hotel name</label>
                     <label for="date" class="form-text">Check-in &ndash; Check-out</label><br>
@@ -41,10 +42,47 @@
                     <input class="form-button__input content-text" type="submit" value="Search">
                 </div>
             </form>
-            <div class="badge-store-wrapper">
+            <form class="form-mobile" action="#" method="get">
+                <fieldset class="form-mobile-wrapper">
+                    <div class="form-mobile-container">
+                        <input class="form-mobile__name-input second-text" type="text" name="destination-name"
+                            id="destination" placeholder="Your destination or hotel name">
+                    </div>
+                    <div class="form-mobile-container">
+                        <div class="form-mobile__time-wrapper">
+                            <label for="date-in" class="form-text">Check-in date</label>
+                            <input class="form-mobile__time-input second-text" type="text" name="date-stay" id="date-in"
+                                placeholder="Tue 15 Sept 2020">
+                        </div>
+                        <div class="form-mobile__time-wrapper">
+                            <label for="date-out" class="form-text">Check-out date</label>
+                            <input class="form-mobile__time-input second-text" type="text" name="date-stay"
+                                id="date-out" placeholder="Sat 19 Sept">
+                        </div>
+                    </div>
+                    <div class="form-mobile-container">
+                        <div class="form-mobile__quantity-wrapper">
+                            <label for="quantity-1" class="form-text">Adults</label><br>
+                            <input class="form-mobile__quantity-input second-text" type="text" name="quantity-client"
+                                id="quantity-1" placeholder="2">
+                            <label for="quantity-2" class="form-text">Children</label><br>
+                            <input class="form-mobile__quantity-input second-text" type="text" name="quantity-client"
+                                id="quantity-2" placeholder="0">
+                            <label for="quantity-3" class="form-text">Room</label><br>
+                            <input class="form-mobile__quantity-input second-text" type="text" name="quantity-client"
+                                id="quantity-3" placeholder="1">
+                        </div>
+                    </div>
+                    <div class="form-mobile-container">
+                        <input class="form-mobile__button-input content-text" type="submit" value="Search">
+                    </div>
+                </fieldset>
+            </form>
+            <div class="badge-store-wrapper center">
                 <img class="badge-store__img" src="./img/google-play-badge.svg" width="135" height="40"
                     alt="google-play score">
-                <img class="badge-store__img" src="./img/app-store-badge.svg" width="120" height="40" alt="app-store score">
+                <img class="badge-store__img" src="./img/app-store-badge.svg" width="120" height="40"
+                    alt="app-store score">
             </div>
         </div>
     </header>
@@ -53,38 +91,34 @@
             <div class="services-company-title-wrapper ">
                 <h1 class="services-company-title__text services-company-title__text--p">What do we offer</h1>
             </div>
-            <div class="services-company-title-chek">
+            <div class="services-company-title__chek">
             </div>
             <ul class="services-company__list">
                 <li class="services-company__item">
                     <div class="services-icon-wrapper">
-                        <div class="services__icon--option">
-                            <img src="./img/support-icon.svg" class="services__icon1" width="75" height="92" alt="Support icon">
-                        </div>
+                        <img src="./img/support-icon.svg" class="services__icon1 services__icon--option" width="75"
+                            height="92" alt="Support icon">
                     </div>
                     <p class="content-text site-navigation">Support 24/7</p>
                 </li>
                 <li class="services-company__item">
                     <div class="services-icon-wrapper">
-                        <div class="services__icon--option">
-                            <img src="./img/forum-icon.svg" class="services__icon2" width="84" height="84" alt="Communicate directly icon">
-                        </div>
+                        <img src="./img/forum-icon.svg" class="services__icon2 services__icon--option" width="84"
+                            height="84" alt="Communicate directly icon">
                     </div>
                     <p class="content-text site-navigation">Communicate directly</p>
                 </li>
                 <li class="services-company__item">
                     <div class="services-icon-wrapper">
-                        <div class="services__icon--option">
-                            <img src="./img/device-icon.svg" class="services__icon3" width="100" height="67" alt="Book online icon">
-                        </div>
+                        <img src="./img/device-icon.svg" class="services__icon3 services__icon--option" width="100"
+                            height="67" alt="Book online icon">
                     </div>
                     <p class="content-text site-navigation">Book online</p>
                 </li>
                 <li class="services-company__item">
                     <div class="services-icon-wrapper">
-                        <div class="services__icon--option">
-                            <img src="./img/reviews-icon.svg" class="services__icon4" width="92" height="84" alt="Real guest reviews icon">
-                        </div>
+                        <img src="./img/reviews-icon.svg" class="services__icon4 services__icon--option" width="92"
+                            height="84" alt="Real guest reviews icon">
                     </div>
                     <p class="content-text site-navigation">Real guest reviews</p>
                 </li>
@@ -93,7 +127,8 @@
     </main>
     <footer class="main-footer">
         <div class="main-footer-wrapper center">
-            <nav class="footer-navigation center">
+            <img class="main-footer__logo" src="./img/footer-logo-mobile.png" width="" height="" alt="">
+            <nav class="footer-navigation">
                 <div class="company-description-wrapper">
                     <h2 class="footer-title company-footer-text">About</h2>
                     <ul class="company-list-description footer-list">
