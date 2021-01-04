@@ -10,6 +10,46 @@
 </head>
 
 <body class="page-body">
+    <header class="main-header">
+        <div class="main-header-wrapper header-wrapper--indents center">
+            <div class="enter-header-wrapper">
+                <div class="logo-company-wrapper">
+                    <img class="logo-company__img" src="./img/logo_vector.svg" width="205" height="40"
+                        alt="logo company">
+                </div>
+                <div class="user-panel-wrapper">
+                    <a href="#" class="content-text user-panel">Stays</a>
+                    <a href="#" class="content-text user-panel">Attractions</a>
+                    <a href="#" class="сhange-color-main user-panel"></a>
+                    <a href="#" class="user-profile user-panel"></a>
+                </div>
+            </div>
+            <p class="plus-relax">Discover stays<br>
+                to live, work or just relax</p>
+            <form class="search-places" action="#" method="get">
+                <div class="form-name-wrapper">
+                    <label for="destination" class="form-text">Your destination or hotel name</label>
+                    <label for="date" class="form-text">Check-in &ndash; Check-out</label><br>
+                </div>
+                <div class="form-filling-wrapper">
+                    <input class="form-name__input second-text" type="text" name="destination-name" id="destination"
+                        placeholder="New York">
+                    <input class="form-time__input second-text" type="text" name="date-stay" id="date"
+                        placeholder="Tue 15 Sept &ndash; Sat 19 Sept">
+                    <label for="quantity" class="visibility-hidden">Quantity client and rooms</label>
+                    <input class="form-quantity__input second-text" type="text" name="quantity-client" id="quantity"
+                        placeholder="2 Adults &ndash; 0 Children &ndash; 1 Room">
+                    <input class="form-button__input content-text" type="submit" value="Search">
+                </div>
+            </form>
+            <div class="badge-store-wrapper">
+                <img class="badge-store__img" src="./img/google-play-badge.svg" width="135" height="40"
+                    alt="google-play score">
+                <img class="badge-store__img" src="./img/app-store-badge.svg" width="120" height="40"
+                    alt="app-store score">
+            </div>
+        </div>
+    </header>
     <main class="main">
         <section class="services container center">
             <div class="services-title title">
@@ -20,28 +60,36 @@
             <ul class="services-company__list">
                 <li class="services-company__item">
                     <div class="services-icon-wrapper">
-                        <div class="services__icon1 services__icon--option">
+                        <div class="services__icon--option">
+                            <img src="./img/support-icon.svg" class="services__icon1" width="75" height="92"
+                                alt="Support icon">
                         </div>
                     </div>
                     <p class="content-text site-navigation">Support 24/7</p>
                 </li>
                 <li class="services-company__item">
                     <div class="services-icon-wrapper">
-                        <div class="services__icon2 services__icon--option">
+                        <div class="services__icon--option">
+                            <img src="./img/forum-icon.svg" class="services__icon2" width="84" height="84"
+                                alt="Communicate directly icon">
                         </div>
                     </div>
                     <p class="content-text site-navigation">Communicate directly</p>
                 </li>
                 <li class="services-company__item">
                     <div class="services-icon-wrapper">
-                        <div class="services__icon3 services__icon--option">
+                        <div class="services__icon--option">
+                            <img src="./img/device-icon.svg" class="services__icon3" width="100" height="67"
+                                alt="Book online icon">
                         </div>
                     </div>
                     <p class="content-text site-navigation">Book online</p>
                 </li>
                 <li class="services-company__item">
                     <div class="services-icon-wrapper">
-                        <div class="services__icon4 services__icon--option">
+                        <div class="services__icon--option">
+                            <img src="./img/reviews-icon.svg" class="services__icon4" width="92" height="84"
+                                alt="Real guest reviews icon">
                         </div>
                     </div>
                     <p class="content-text site-navigation">Real guest reviews</p>
